@@ -21,6 +21,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/cost_of_service_edit_text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/cost_of_service_edit_text"
+            app:tint="?attr/colorControlNormal"
             app:srcCompat="@drawable/ic_store" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -48,6 +49,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/service_question"
             app:layout_constraintStart_toStartOf="@+id/icon_cost_of_service"
             app:layout_constraintTop_toTopOf="@+id/service_question"
+            app:tint="?attr/colorControlNormal"
             app:srcCompat="@drawable/ic_service" />
 
         <TextView
@@ -96,6 +98,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/round_up_switch"
             app:layout_constraintStart_toStartOf="@+id/icon_service_question"
             app:layout_constraintTop_toTopOf="@+id/round_up_switch"
+            app:tint="?attr/colorControlNormal"
             app:srcCompat="@drawable/ic_round_up" />
 
         <com.google.android.material.switchmaterial.SwitchMaterial
